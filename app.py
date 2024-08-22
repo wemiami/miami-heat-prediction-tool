@@ -86,7 +86,7 @@ It factors in historical game logs, opponent-specific data, and rest days to del
 """)
 
 # Load player CSV data
-csv_folder_path = r'C:\Users\14692\OneDrive\Desktop\Miami Heat 2023-2024 Roster Game Logs'
+csv_folder_path = 'Miami Heat 2023-2024 Roster Game Logs'  # Adjusted for relative path
 
 # Get list of players from CSV files
 player_files = [f for f in os.listdir(csv_folder_path) if f.endswith('.csv')]
@@ -179,3 +179,4 @@ if player != '-':
 
 # Trademark Section at the bottom with a more professional tone
 st.markdown("<p class='trademark'>© 2024 Jacob Zonis - Developer & Data Analyst. All Rights Reserved.</p>", unsafe_allow_html=True)
+
